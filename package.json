@@ -1,0 +1,25 @@
+{
+  "name": "CronsJob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js",
+    "install": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "node-cron": "^2.0.3",
+    "puppeteer": "^8.0.0",
+    "request-x-ray": "^0.1.4",
+    "slug": "^4.0.3",
+    "x-ray-phantom": "^1.0.1",
+    "x-ray-scraper": "^3.0.6"
+  }
+}
