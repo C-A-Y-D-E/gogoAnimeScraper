@@ -53,7 +53,7 @@ app.get("/scrape", async (req, res) => {
   res.send(data);
 });
 
-cron.schedule("* * * * *", async () => {
+cron.schedule("* * * *", async () => {
   console.log("calling from scheduler");
   const data = await scrapeAnime();
 
